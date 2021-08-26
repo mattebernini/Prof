@@ -1,0 +1,165 @@
+Cosa è la forma ridotta di una matrice
+Ricordare che i blocchi diagonali sono quadrati
+
+Definizione di matrice riducibile
+cosa è una matrice di permutazione?A che insieme di matrici appartengono?
+
+Matrice irriducibile
+Cosa è un grafo fortemente connesso?
+
+Primo teorema di Gershgorin
+Faccia un esempio di una matrice che abbia gli stessi autovalori. (la trasposta)
+
+Metodo di Bisezione
+Quali condizioni devono essere verificate per avere la convergenza?(La funzione deve essere continuaed f(a)f(b)<0)
+Come funziona?
+Errore?Mi ricavi n(il numero si prenderà interoarrotondando per eccesso)
+Quale è l’ordine di convergenza?(ordine 1, convergenza lineare)
+
+Come si passa da Ax = b ad x = Hx + c?
+quando è convergente? Condizione di che tipo?
+Quali sono le altre condizioni e di che tipo?
+Che rapporto c’è tra gli autovalori e il determinante? (det = prodotto degli autovalori)c
+
+Mi parli del Metodo di newton
+Lo schema iterativo me lo sa scrivere?
+Come possiamo avvicinarci al trovare un buon x0?
+Convergenza?
+
+Mi parli del metodo delle potenze
+Per cosa viene usato
+Le condizioni (ipotesi)
+Quali algoritmo segue
+Mi faccia un accenno della dimostrazione (fare attenzione agli indici)
+Come sono legati Y e Y (h) ? (hermitiana, definizione)
+Quali sono le condizioni?
+Che vettore è z0? È arbitrario? E basta? (arbitrario non nullo)
+
+Parliamo di metodi iterativi stazionari a un punto
+Quale è lo schema iterativo classico?
+Cosa è necessario conoscere?
+Mi parli dell’ordine di convergenza
+
+Le matrici di rotazione come sono fatte?
+Mi scriva come è strutturata la matrice di rotazione
+Ha qualche proprietà particolare? Fa parte di qualche insieme di matrici? Ortogonale
+Se le do una matrice come fa a dirmi che è ortogonale?
+In quale contesti abbiamo usato le matrici di rotazione? Per quale fattorizzazione? (QR)
+ci sono degli uno tra r e t? si!
+Ha qualche proprietà particolare?
+Abbiamo visto qualche utilizzo? Si, jacobi
+
+Mi parli del teorema di convergenza locale
+in quale contesto siamo? Sistemi lineari e non
+f chi è?
+Stabilisca lo schema(iterativo)
+Mi dica le tesi
+Nell’intervallo I cosa bisogna trovare?
+Come deve essere k?
+alfa fa parte di I?
+grado di precisione? 1
+
+A = LR
+cosa si intende? Di cosa stiamo parlando?
+Èuna fattorizzazione, non coincide per forza con quella di gauss
+
+Cosa è il raggio spettrale di una matrice?
+C’è qualcosa che si può dire tra raggio spettrale e norma?Me lo sa dimostrare? (Hirsh)
+
+Definizione di ordine di convergenza
+
+Dato l’integralecompreso tra a e b di “ro di x” per f(x), mi sa dire come si costruiscono formule di quadratura di tipo interpolatorio?
+Questo valore della formula coincide  con cosa? (min 36)
+
+Polinomi di interpolazione(parabolica)
+Cosa è necessario conoscere?
+Pk, quel k cosa indica?(Il grado di P, che è al più k)
+E’ unico? Perché?
+
+Mi parli del polinomio di interpolazione di Lagrange
+a cosa serve?
+Cosa abbiamo?
+lx cosa è?
+dipende da quali valori?
+Quanti polinomi esistono? E’ unico? (si)
+Quale grado? E’ esattamente k? l di grado esattamente k, mentre L di grado al più k
+Errore?
+
+Polinomio di interpolazione di Newton
+Di cosa abbiamo bisogno?
+Cosa sappiamo? Quali dati dobbiamo avere?
+Quali sono i punti?
+Per essere di interpolazionecosa deve essere verificato?
+Deve essere di grado al massimo? (k dati k+1 punti)
+Sa dire l’errore che si commette? Ovvero la differenza
+Quale grado di convergenza abbiamo? A quale teorema facciamo riferimento? (
+    =2, th ordine di convergenza)
+
+Polinomio di Interpolazione di Hermite
+h0r e 01r sono delle costanti?No
+Come si giunge da (Ax+B)l^2(x)alla forma finale
+Errore?
+Se le scirvo F(x) –H2k+1(x) cosa è? (errore)
+
+Mi parli delle spline cubiche
+cosa vuole trovare?
+quali condizioni deve porre?
+Mi sa dire qualcosa sulla regolarità? È continua
+
+Ordine di convergenza di Xn
+p che tipo di numero è? Può essere ½? (no) è positivo 
+= 1
+
+Teorema di Hirsh (dimostrazione)
+
+Mi scriva la matrice di Frobeniusassociata a x^3 –2x^2 + x + 1 = 0
+che legame c’è tra la matrice e l’equazione? La nostra equazione cosa è per la matrice?
+Se di grado dispari, abbiamo almeno una soluzione reale.
+Mi sa dire un’altra matrice che abbia gli stessi autovalori? La trasposta
+Mi faccia il disegno, come calcoliamo raggio e centro? In quale intervallo abbiamo soluzioni reali?
+
+Mi parli del metodo di jacobi
+C’è qualcosa che lega Ak e Ak+1? Hanno gli stessi autovalori
+
+Se abbiamo il sistema Ax = b avere A = LR è di aiuto in qualche modo?
+il sistema Rx = y e Ly = b può essere risolto in parallelo? No, perché prima va risolto uno e poi l’altro
+
+Interpolazione parabolica
+soluzione unica? Perché? Vandermonde con punti due a due distinti
+E’ un sistema lineare? Si
+
+Numero di mal condizionamento
+Cosa è?
+Formula
+
+Metodo QR
+schema algoritmo
+
+Approssimare una funzione f nel senso dei minimi quadrati
+quale è il sistema lineare?
+Come faccio a trovare i punti di minimo? (derivo)
+che dimensione ha la matrice A?
+A trasposto per A ha determinante diverso da zero
+A trasposto per A ha qualche proprietà particolare? (At * A)^t = A^t * A ed è simmetricalll
+Le fi che caratteristica hanno? (Sono linearmente indipendenti)
+
+Mi parli della formula trapezoidale per approssimare un integrale
+Mi sa fare il ragionamento che si segue per passare dalla forma standard alla forma generalizzata?
+quali sono gli estremi?
+vantaggio tra forma standard a quella generalizzata?
+dal punto di vista del grado di precisione guadagniamo qualcosa? (grado 1, non guadagna niente)
+perché lo facciamo? Diminuiamo l’errore in quanto tende a zero, possiamo avere precisione elevata quanto vogliamo
+Cosa approssima? A e B cosa rappresentano?
+MI dica la formula
+Che punto è x0? Dove lo prendo? (x0 è l’estremo A, x1 è l’estremo B)
+Mi disegni il trapezio
+
+X^3-2x^2+ 2 = 0
+Ha soluzioni reali? Si, la potenza è dispari per cui ci sarà almeno una soluzione reale
+Se volessi trovare tutti gli intervalli in cui vi sono zeri, cosa faresti?
+
+Errore nell’approssimazione di un integrale tra a e b di ro di x per f(x)tramite una formula di quadratura
+Come si definisce il grado di precisione?
+
+Velocità asintotica di convergenza
+Come si calcola
